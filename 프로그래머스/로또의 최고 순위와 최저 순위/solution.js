@@ -5,6 +5,6 @@ function solution(lottos, win_nums) {
   const max = 7 - inter_max >=6 ? 6 : 7 - inter_max;
   const min = 7 - inter_lottos >=6 ? 6: 7 - inter_lottos;
   
-  return [max, min]
+  return [max, min];
   
 }
